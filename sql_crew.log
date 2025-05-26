@@ -1,0 +1,2996 @@
+2025-05-26 11:33:26,783 - MacSqlCrew.main - INFO - Starting SQL Crew execution
+2025-05-26 11:33:26,784 - MacSqlCrew - INFO - Google AI API configured successfully
+2025-05-26 11:33:26,784 - MacSqlCrew - INFO - LLM model initialized successfully
+2025-05-26 11:33:26,786 - MacSqlCrew.main - INFO - Processing question: What are the total sales for each customer, and who has spent the most?
+2025-05-26 11:33:26,786 - MacSqlCrew - INFO - Starting select_relevant_schema_task
+2025-05-26 11:33:26,786 - MacSqlCrew - INFO - Creating schema selection task
+2025-05-26 11:33:26,786 - MacSqlCrew - INFO - Starting selector_agent
+2025-05-26 11:33:26,786 - MacSqlCrew - INFO - Creating selector agent
+2025-05-26 11:33:26,787 - MacSqlCrew - INFO - Completed selector_agent in 0.00 seconds
+2025-05-26 11:33:26,787 - MacSqlCrew - INFO - Completed select_relevant_schema_task in 0.00 seconds
+2025-05-26 11:33:26,787 - MacSqlCrew - INFO - Starting select_relevant_column_values
+2025-05-26 11:33:26,787 - MacSqlCrew - INFO - Creating column values selection task
+2025-05-26 11:33:26,787 - MacSqlCrew - INFO - Starting selector_agent
+2025-05-26 11:33:26,787 - MacSqlCrew - INFO - Completed selector_agent in 0.00 seconds
+2025-05-26 11:33:26,787 - MacSqlCrew - INFO - Completed select_relevant_column_values in 0.00 seconds
+2025-05-26 11:33:26,787 - MacSqlCrew - INFO - Starting decompose_question_task
+2025-05-26 11:33:26,787 - MacSqlCrew - INFO - Creating question decomposition task
+2025-05-26 11:33:26,787 - MacSqlCrew - INFO - Starting decomposer_agent
+2025-05-26 11:33:26,787 - MacSqlCrew - INFO - Creating decomposer agent
+2025-05-26 11:33:26,788 - MacSqlCrew - INFO - Completed decomposer_agent in 0.00 seconds
+2025-05-26 11:33:26,789 - MacSqlCrew - INFO - Starting select_relevant_schema_task
+2025-05-26 11:33:26,789 - MacSqlCrew - INFO - Completed select_relevant_schema_task in 0.00 seconds
+2025-05-26 11:33:26,789 - MacSqlCrew - INFO - Starting select_relevant_column_values
+2025-05-26 11:33:26,789 - MacSqlCrew - INFO - Completed select_relevant_column_values in 0.00 seconds
+2025-05-26 11:33:26,789 - MacSqlCrew - INFO - Completed decompose_question_task in 0.00 seconds
+2025-05-26 11:33:26,789 - MacSqlCrew - INFO - Starting refine_sql_task
+2025-05-26 11:33:26,789 - MacSqlCrew - INFO - Creating SQL refinement task
+2025-05-26 11:33:26,789 - MacSqlCrew - INFO - Starting refiner_agent
+2025-05-26 11:33:26,789 - MacSqlCrew - INFO - Creating refiner agent
+2025-05-26 11:33:26,790 - MacSqlCrew - INFO - Completed refiner_agent in 0.00 seconds
+2025-05-26 11:33:26,790 - MacSqlCrew - INFO - Starting select_relevant_schema_task
+2025-05-26 11:33:26,790 - MacSqlCrew - INFO - Completed select_relevant_schema_task in 0.00 seconds
+2025-05-26 11:33:26,791 - MacSqlCrew - INFO - Starting select_relevant_column_values
+2025-05-26 11:33:26,791 - MacSqlCrew - INFO - Completed select_relevant_column_values in 0.00 seconds
+2025-05-26 11:33:26,791 - MacSqlCrew - INFO - Starting decompose_question_task
+2025-05-26 11:33:26,791 - MacSqlCrew - INFO - Completed decompose_question_task in 0.00 seconds
+2025-05-26 11:33:26,791 - MacSqlCrew - INFO - Completed refine_sql_task in 0.00 seconds
+2025-05-26 11:33:26,791 - MacSqlCrew - INFO - Starting selector_agent
+2025-05-26 11:33:26,791 - MacSqlCrew - INFO - Completed selector_agent in 0.00 seconds
+2025-05-26 11:33:26,791 - MacSqlCrew - INFO - Starting decomposer_agent
+2025-05-26 11:33:26,791 - MacSqlCrew - INFO - Completed decomposer_agent in 0.00 seconds
+2025-05-26 11:33:26,791 - MacSqlCrew - INFO - Starting refiner_agent
+2025-05-26 11:33:26,791 - MacSqlCrew - INFO - Completed refiner_agent in 0.00 seconds
+2025-05-26 11:33:26,795 - MacSqlCrew.main - INFO - Starting crew execution
+2025-05-26 11:37:41,570 - MacSqlCrew.main - INFO - Starting SQL Crew execution
+2025-05-26 11:37:41,571 - MacSqlCrew - INFO - Google AI API configured successfully
+2025-05-26 11:37:41,572 - MacSqlCrew - INFO - LLM model initialized successfully
+2025-05-26 11:37:41,574 - MacSqlCrew.main - INFO - Processing question: What are the total sales for each customer, and who has spent the most?
+2025-05-26 11:37:41,574 - MacSqlCrew - INFO - Starting select_relevant_schema_task
+2025-05-26 11:37:41,574 - MacSqlCrew - INFO - Creating schema selection task
+2025-05-26 11:37:41,574 - MacSqlCrew - INFO - Starting selector_agent
+2025-05-26 11:37:41,574 - MacSqlCrew - INFO - Creating selector agent
+2025-05-26 11:37:41,575 - MacSqlCrew - INFO - Completed selector_agent in 0.00 seconds
+2025-05-26 11:37:41,575 - MacSqlCrew - INFO - Completed select_relevant_schema_task in 0.00 seconds
+2025-05-26 11:37:41,575 - MacSqlCrew - INFO - Starting select_relevant_column_values
+2025-05-26 11:37:41,575 - MacSqlCrew - INFO - Creating column values selection task
+2025-05-26 11:37:41,575 - MacSqlCrew - INFO - Starting selector_agent
+2025-05-26 11:37:41,575 - MacSqlCrew - INFO - Completed selector_agent in 0.00 seconds
+2025-05-26 11:37:41,575 - MacSqlCrew - INFO - Completed select_relevant_column_values in 0.00 seconds
+2025-05-26 11:37:41,575 - MacSqlCrew - INFO - Starting decompose_question_task
+2025-05-26 11:37:41,575 - MacSqlCrew - INFO - Creating question decomposition task
+2025-05-26 11:37:41,575 - MacSqlCrew - INFO - Starting decomposer_agent
+2025-05-26 11:37:41,575 - MacSqlCrew - INFO - Creating decomposer agent
+2025-05-26 11:37:41,576 - MacSqlCrew - INFO - Completed decomposer_agent in 0.00 seconds
+2025-05-26 11:37:41,576 - MacSqlCrew - INFO - Starting select_relevant_schema_task
+2025-05-26 11:37:41,576 - MacSqlCrew - INFO - Completed select_relevant_schema_task in 0.00 seconds
+2025-05-26 11:37:41,576 - MacSqlCrew - INFO - Starting select_relevant_column_values
+2025-05-26 11:37:41,576 - MacSqlCrew - INFO - Completed select_relevant_column_values in 0.00 seconds
+2025-05-26 11:37:41,576 - MacSqlCrew - INFO - Completed decompose_question_task in 0.00 seconds
+2025-05-26 11:37:41,576 - MacSqlCrew - INFO - Starting refine_sql_task
+2025-05-26 11:37:41,576 - MacSqlCrew - INFO - Creating SQL refinement task
+2025-05-26 11:37:41,576 - MacSqlCrew - INFO - Starting refiner_agent
+2025-05-26 11:37:41,576 - MacSqlCrew - INFO - Creating refiner agent
+2025-05-26 11:37:41,577 - MacSqlCrew - INFO - Completed refiner_agent in 0.00 seconds
+2025-05-26 11:37:41,577 - MacSqlCrew - INFO - Starting select_relevant_schema_task
+2025-05-26 11:37:41,577 - MacSqlCrew - INFO - Completed select_relevant_schema_task in 0.00 seconds
+2025-05-26 11:37:41,577 - MacSqlCrew - INFO - Starting select_relevant_column_values
+2025-05-26 11:37:41,577 - MacSqlCrew - INFO - Completed select_relevant_column_values in 0.00 seconds
+2025-05-26 11:37:41,577 - MacSqlCrew - INFO - Starting decompose_question_task
+2025-05-26 11:37:41,577 - MacSqlCrew - INFO - Completed decompose_question_task in 0.00 seconds
+2025-05-26 11:37:41,577 - MacSqlCrew - INFO - Completed refine_sql_task in 0.00 seconds
+2025-05-26 11:37:41,577 - MacSqlCrew - INFO - Starting selector_agent
+2025-05-26 11:37:41,577 - MacSqlCrew - INFO - Completed selector_agent in 0.00 seconds
+2025-05-26 11:37:41,577 - MacSqlCrew - INFO - Starting decomposer_agent
+2025-05-26 11:37:41,577 - MacSqlCrew - INFO - Completed decomposer_agent in 0.00 seconds
+2025-05-26 11:37:41,577 - MacSqlCrew - INFO - Starting refiner_agent
+2025-05-26 11:37:41,577 - MacSqlCrew - INFO - Completed refiner_agent in 0.00 seconds
+2025-05-26 11:37:41,579 - MacSqlCrew.main - INFO - Starting crew execution
+2025-05-26 11:37:41,605 - LiteLLM - INFO - 
+LiteLLM completion() model= gemini-1.5-flash; provider = gemini
+2025-05-26 11:37:42,806 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=None "HTTP/1.1 400 Bad Request"
+2025-05-26 11:38:39,479 - MacSqlCrew.main - INFO - Starting SQL Crew execution
+2025-05-26 11:38:39,480 - MacSqlCrew - INFO - Google AI API configured successfully
+2025-05-26 11:38:39,481 - MacSqlCrew - INFO - LLM model initialized successfully
+2025-05-26 11:38:39,485 - MacSqlCrew.main - INFO - Processing question: What are the total sales for each customer, and who has spent the most?
+2025-05-26 11:38:39,485 - MacSqlCrew - INFO - Starting select_relevant_schema_task
+2025-05-26 11:38:39,485 - MacSqlCrew - INFO - Creating schema selection task
+2025-05-26 11:38:39,485 - MacSqlCrew - INFO - Starting selector_agent
+2025-05-26 11:38:39,485 - MacSqlCrew - INFO - Creating selector agent
+2025-05-26 11:38:39,486 - MacSqlCrew - INFO - Completed selector_agent in 0.00 seconds
+2025-05-26 11:38:39,486 - MacSqlCrew - INFO - Completed select_relevant_schema_task in 0.00 seconds
+2025-05-26 11:38:39,486 - MacSqlCrew - INFO - Starting select_relevant_column_values
+2025-05-26 11:38:39,486 - MacSqlCrew - INFO - Creating column values selection task
+2025-05-26 11:38:39,486 - MacSqlCrew - INFO - Starting selector_agent
+2025-05-26 11:38:39,486 - MacSqlCrew - INFO - Completed selector_agent in 0.00 seconds
+2025-05-26 11:38:39,486 - MacSqlCrew - INFO - Completed select_relevant_column_values in 0.00 seconds
+2025-05-26 11:38:39,486 - MacSqlCrew - INFO - Starting decompose_question_task
+2025-05-26 11:38:39,486 - MacSqlCrew - INFO - Creating question decomposition task
+2025-05-26 11:38:39,486 - MacSqlCrew - INFO - Starting decomposer_agent
+2025-05-26 11:38:39,486 - MacSqlCrew - INFO - Creating decomposer agent
+2025-05-26 11:38:39,487 - MacSqlCrew - INFO - Completed decomposer_agent in 0.00 seconds
+2025-05-26 11:38:39,487 - MacSqlCrew - INFO - Starting select_relevant_schema_task
+2025-05-26 11:38:39,487 - MacSqlCrew - INFO - Completed select_relevant_schema_task in 0.00 seconds
+2025-05-26 11:38:39,487 - MacSqlCrew - INFO - Starting select_relevant_column_values
+2025-05-26 11:38:39,487 - MacSqlCrew - INFO - Completed select_relevant_column_values in 0.00 seconds
+2025-05-26 11:38:39,487 - MacSqlCrew - INFO - Completed decompose_question_task in 0.00 seconds
+2025-05-26 11:38:39,487 - MacSqlCrew - INFO - Starting refine_sql_task
+2025-05-26 11:38:39,487 - MacSqlCrew - INFO - Creating SQL refinement task
+2025-05-26 11:38:39,487 - MacSqlCrew - INFO - Starting refiner_agent
+2025-05-26 11:38:39,487 - MacSqlCrew - INFO - Creating refiner agent
+2025-05-26 11:38:39,488 - MacSqlCrew - INFO - Completed refiner_agent in 0.00 seconds
+2025-05-26 11:38:39,488 - MacSqlCrew - INFO - Starting select_relevant_schema_task
+2025-05-26 11:38:39,488 - MacSqlCrew - INFO - Completed select_relevant_schema_task in 0.00 seconds
+2025-05-26 11:38:39,488 - MacSqlCrew - INFO - Starting select_relevant_column_values
+2025-05-26 11:38:39,488 - MacSqlCrew - INFO - Completed select_relevant_column_values in 0.00 seconds
+2025-05-26 11:38:39,488 - MacSqlCrew - INFO - Starting decompose_question_task
+2025-05-26 11:38:39,488 - MacSqlCrew - INFO - Completed decompose_question_task in 0.00 seconds
+2025-05-26 11:38:39,488 - MacSqlCrew - INFO - Completed refine_sql_task in 0.00 seconds
+2025-05-26 11:38:39,488 - MacSqlCrew - INFO - Starting selector_agent
+2025-05-26 11:38:39,488 - MacSqlCrew - INFO - Completed selector_agent in 0.00 seconds
+2025-05-26 11:38:39,488 - MacSqlCrew - INFO - Starting decomposer_agent
+2025-05-26 11:38:39,488 - MacSqlCrew - INFO - Completed decomposer_agent in 0.00 seconds
+2025-05-26 11:38:39,488 - MacSqlCrew - INFO - Starting refiner_agent
+2025-05-26 11:38:39,488 - MacSqlCrew - INFO - Completed refiner_agent in 0.00 seconds
+2025-05-26 11:38:39,491 - MacSqlCrew.main - INFO - Starting crew execution
+2025-05-26 11:38:39,518 - LiteLLM - INFO - 
+LiteLLM completion() model= gemini-2.5-pro-preview-05-06; provider = gemini
+2025-05-26 11:38:40,594 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-05-06:generateContent?key=None "HTTP/1.1 400 Bad Request"
+2025-05-26 11:39:12,020 - MacSqlCrew.main - INFO - Starting SQL Crew execution
+2025-05-26 11:39:12,021 - MacSqlCrew - INFO - Google AI API configured successfully
+2025-05-26 11:39:12,021 - MacSqlCrew - INFO - LLM model initialized successfully
+2025-05-26 11:39:12,023 - MacSqlCrew.main - INFO - Processing question: What are the total sales for each customer, and who has spent the most?
+2025-05-26 11:39:12,023 - MacSqlCrew - INFO - Starting select_relevant_schema_task
+2025-05-26 11:39:12,023 - MacSqlCrew - INFO - Creating schema selection task
+2025-05-26 11:39:12,023 - MacSqlCrew - INFO - Starting selector_agent
+2025-05-26 11:39:12,023 - MacSqlCrew - INFO - Creating selector agent
+2025-05-26 11:39:12,023 - MacSqlCrew - INFO - Completed selector_agent in 0.00 seconds
+2025-05-26 11:39:12,024 - MacSqlCrew - INFO - Completed select_relevant_schema_task in 0.00 seconds
+2025-05-26 11:39:12,024 - MacSqlCrew - INFO - Starting select_relevant_column_values
+2025-05-26 11:39:12,024 - MacSqlCrew - INFO - Creating column values selection task
+2025-05-26 11:39:12,024 - MacSqlCrew - INFO - Starting selector_agent
+2025-05-26 11:39:12,024 - MacSqlCrew - INFO - Completed selector_agent in 0.00 seconds
+2025-05-26 11:39:12,024 - MacSqlCrew - INFO - Completed select_relevant_column_values in 0.00 seconds
+2025-05-26 11:39:12,024 - MacSqlCrew - INFO - Starting decompose_question_task
+2025-05-26 11:39:12,024 - MacSqlCrew - INFO - Creating question decomposition task
+2025-05-26 11:39:12,024 - MacSqlCrew - INFO - Starting decomposer_agent
+2025-05-26 11:39:12,024 - MacSqlCrew - INFO - Creating decomposer agent
+2025-05-26 11:39:12,025 - MacSqlCrew - INFO - Completed decomposer_agent in 0.00 seconds
+2025-05-26 11:39:12,025 - MacSqlCrew - INFO - Starting select_relevant_schema_task
+2025-05-26 11:39:12,025 - MacSqlCrew - INFO - Completed select_relevant_schema_task in 0.00 seconds
+2025-05-26 11:39:12,025 - MacSqlCrew - INFO - Starting select_relevant_column_values
+2025-05-26 11:39:12,025 - MacSqlCrew - INFO - Completed select_relevant_column_values in 0.00 seconds
+2025-05-26 11:39:12,025 - MacSqlCrew - INFO - Completed decompose_question_task in 0.00 seconds
+2025-05-26 11:39:12,025 - MacSqlCrew - INFO - Starting refine_sql_task
+2025-05-26 11:39:12,025 - MacSqlCrew - INFO - Creating SQL refinement task
+2025-05-26 11:39:12,025 - MacSqlCrew - INFO - Starting refiner_agent
+2025-05-26 11:39:12,025 - MacSqlCrew - INFO - Creating refiner agent
+2025-05-26 11:39:12,026 - MacSqlCrew - INFO - Completed refiner_agent in 0.00 seconds
+2025-05-26 11:39:12,026 - MacSqlCrew - INFO - Starting select_relevant_schema_task
+2025-05-26 11:39:12,026 - MacSqlCrew - INFO - Completed select_relevant_schema_task in 0.00 seconds
+2025-05-26 11:39:12,026 - MacSqlCrew - INFO - Starting select_relevant_column_values
+2025-05-26 11:39:12,026 - MacSqlCrew - INFO - Completed select_relevant_column_values in 0.00 seconds
+2025-05-26 11:39:12,026 - MacSqlCrew - INFO - Starting decompose_question_task
+2025-05-26 11:39:12,026 - MacSqlCrew - INFO - Completed decompose_question_task in 0.00 seconds
+2025-05-26 11:39:12,026 - MacSqlCrew - INFO - Completed refine_sql_task in 0.00 seconds
+2025-05-26 11:39:12,026 - MacSqlCrew - INFO - Starting selector_agent
+2025-05-26 11:39:12,026 - MacSqlCrew - INFO - Completed selector_agent in 0.00 seconds
+2025-05-26 11:39:12,026 - MacSqlCrew - INFO - Starting decomposer_agent
+2025-05-26 11:39:12,026 - MacSqlCrew - INFO - Completed decomposer_agent in 0.00 seconds
+2025-05-26 11:39:12,026 - MacSqlCrew - INFO - Starting refiner_agent
+2025-05-26 11:39:12,026 - MacSqlCrew - INFO - Completed refiner_agent in 0.00 seconds
+2025-05-26 11:39:12,028 - MacSqlCrew.main - INFO - Starting crew execution
+2025-05-26 11:39:12,048 - LiteLLM - INFO - 
+LiteLLM completion() model= gemini-pro; provider = gemini
+2025-05-26 11:39:13,054 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=None "HTTP/1.1 400 Bad Request"
+2025-05-26 11:42:13,299 - MacSqlCrew.main - INFO - Starting SQL Crew execution
+2025-05-26 11:42:13,300 - MacSqlCrew - INFO - Validating Google AI API configuration...
+2025-05-26 11:42:14,862 - MacSqlCrew - ERROR - Error initializing MacSqlCrew: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+Traceback (most recent call last):
+  File "/home/joel/repos/poc_crewai_sqlagent/agent.py", line 59, in __init__
+    test_response = test_model.generate_content("Test connection")
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/generativeai/generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/ai/generativelanguage_v1beta/services/generative_service/client.py", line 835, in generate_content
+    response = rpc(
+               ^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/gapic_v1/method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 293, in retry_wrapped_func
+    return retry_target(
+           ^^^^^^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 153, in retry_target
+    _retry_error_helper(
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_base.py", line 212, in _retry_error_helper
+    raise final_exc from source_exc
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 144, in retry_target
+    result = target()
+             ^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.NotFound: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-05-26 11:42:14,866 - MacSqlCrew.main - ERROR - Critical error during execution: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+Traceback (most recent call last):
+  File "/home/joel/repos/poc_crewai_sqlagent/main.py", line 24, in main
+    sql_crew = MacSqlCrew()
+               ^^^^^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/crewai/project/crew_base.py", line 31, in __init__
+    super().__init__(*args, **kwargs)
+  File "/home/joel/repos/poc_crewai_sqlagent/agent.py", line 59, in __init__
+    test_response = test_model.generate_content("Test connection")
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/generativeai/generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/ai/generativelanguage_v1beta/services/generative_service/client.py", line 835, in generate_content
+    response = rpc(
+               ^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/gapic_v1/method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 293, in retry_wrapped_func
+    return retry_target(
+           ^^^^^^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 153, in retry_target
+    _retry_error_helper(
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_base.py", line 212, in _retry_error_helper
+    raise final_exc from source_exc
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 144, in retry_target
+    result = target()
+             ^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.NotFound: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-05-26 11:42:41,019 - MacSqlCrew.main - INFO - Starting SQL Crew execution
+2025-05-26 11:42:41,020 - MacSqlCrew - INFO - Validating Google AI API configuration...
+2025-05-26 11:42:42,470 - MacSqlCrew - ERROR - Error initializing MacSqlCrew: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+Traceback (most recent call last):
+  File "/home/joel/repos/poc_crewai_sqlagent/agent.py", line 59, in __init__
+    test_response = test_model.generate_content("Test connection")
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/generativeai/generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/ai/generativelanguage_v1beta/services/generative_service/client.py", line 835, in generate_content
+    response = rpc(
+               ^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/gapic_v1/method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 293, in retry_wrapped_func
+    return retry_target(
+           ^^^^^^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 153, in retry_target
+    _retry_error_helper(
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_base.py", line 212, in _retry_error_helper
+    raise final_exc from source_exc
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 144, in retry_target
+    result = target()
+             ^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.NotFound: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-05-26 11:42:42,474 - MacSqlCrew.main - ERROR - Critical error during execution: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+Traceback (most recent call last):
+  File "/home/joel/repos/poc_crewai_sqlagent/main.py", line 24, in main
+    sql_crew = MacSqlCrew()
+               ^^^^^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/crewai/project/crew_base.py", line 31, in __init__
+    super().__init__(*args, **kwargs)
+  File "/home/joel/repos/poc_crewai_sqlagent/agent.py", line 59, in __init__
+    test_response = test_model.generate_content("Test connection")
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/generativeai/generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/ai/generativelanguage_v1beta/services/generative_service/client.py", line 835, in generate_content
+    response = rpc(
+               ^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/gapic_v1/method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 293, in retry_wrapped_func
+    return retry_target(
+           ^^^^^^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 153, in retry_target
+    _retry_error_helper(
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_base.py", line 212, in _retry_error_helper
+    raise final_exc from source_exc
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 144, in retry_target
+    result = target()
+             ^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.NotFound: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-05-26 11:42:57,284 - MacSqlCrew.main - INFO - Starting SQL Crew execution
+2025-05-26 11:42:57,285 - MacSqlCrew - INFO - Validating Google AI API configuration...
+2025-05-26 11:42:58,551 - MacSqlCrew - ERROR - Error initializing MacSqlCrew: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+Traceback (most recent call last):
+  File "/home/joel/repos/poc_crewai_sqlagent/agent.py", line 59, in __init__
+    test_response = test_model.generate_content("Test connection")
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/generativeai/generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/ai/generativelanguage_v1beta/services/generative_service/client.py", line 835, in generate_content
+    response = rpc(
+               ^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/gapic_v1/method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 293, in retry_wrapped_func
+    return retry_target(
+           ^^^^^^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 153, in retry_target
+    _retry_error_helper(
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_base.py", line 212, in _retry_error_helper
+    raise final_exc from source_exc
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 144, in retry_target
+    result = target()
+             ^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.NotFound: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-05-26 11:42:58,555 - MacSqlCrew.main - ERROR - Critical error during execution: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+Traceback (most recent call last):
+  File "/home/joel/repos/poc_crewai_sqlagent/main.py", line 24, in main
+    sql_crew = MacSqlCrew()
+               ^^^^^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/crewai/project/crew_base.py", line 31, in __init__
+    super().__init__(*args, **kwargs)
+  File "/home/joel/repos/poc_crewai_sqlagent/agent.py", line 59, in __init__
+    test_response = test_model.generate_content("Test connection")
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/generativeai/generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/ai/generativelanguage_v1beta/services/generative_service/client.py", line 835, in generate_content
+    response = rpc(
+               ^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/gapic_v1/method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 293, in retry_wrapped_func
+    return retry_target(
+           ^^^^^^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 153, in retry_target
+    _retry_error_helper(
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_base.py", line 212, in _retry_error_helper
+    raise final_exc from source_exc
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 144, in retry_target
+    result = target()
+             ^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.NotFound: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-05-26 11:44:49,924 - MacSqlCrew.main - INFO - Starting SQL Crew execution
+2025-05-26 11:44:49,925 - MacSqlCrew - INFO - Configured Google AI API
+2025-05-26 11:44:49,925 - MacSqlCrew - INFO - Available models:
+2025-05-26 11:44:51,289 - MacSqlCrew - INFO - - models/embedding-gecko-001
+2025-05-26 11:44:51,289 - MacSqlCrew - INFO - - models/gemini-1.0-pro-vision-latest
+2025-05-26 11:44:51,289 - MacSqlCrew - INFO - - models/gemini-pro-vision
+2025-05-26 11:44:51,289 - MacSqlCrew - INFO - - models/gemini-1.5-pro-latest
+2025-05-26 11:44:51,289 - MacSqlCrew - INFO - - models/gemini-1.5-pro-001
+2025-05-26 11:44:51,289 - MacSqlCrew - INFO - - models/gemini-1.5-pro-002
+2025-05-26 11:44:51,289 - MacSqlCrew - INFO - - models/gemini-1.5-pro
+2025-05-26 11:44:51,289 - MacSqlCrew - INFO - - models/gemini-1.5-flash-latest
+2025-05-26 11:44:51,289 - MacSqlCrew - INFO - - models/gemini-1.5-flash-001
+2025-05-26 11:44:51,289 - MacSqlCrew - INFO - - models/gemini-1.5-flash-001-tuning
+2025-05-26 11:44:51,289 - MacSqlCrew - INFO - - models/gemini-1.5-flash
+2025-05-26 11:44:51,289 - MacSqlCrew - INFO - - models/gemini-1.5-flash-002
+2025-05-26 11:44:51,289 - MacSqlCrew - INFO - - models/gemini-1.5-flash-8b
+2025-05-26 11:44:51,289 - MacSqlCrew - INFO - - models/gemini-1.5-flash-8b-001
+2025-05-26 11:44:51,289 - MacSqlCrew - INFO - - models/gemini-1.5-flash-8b-latest
+2025-05-26 11:44:51,289 - MacSqlCrew - INFO - - models/gemini-1.5-flash-8b-exp-0827
+2025-05-26 11:44:51,289 - MacSqlCrew - INFO - - models/gemini-1.5-flash-8b-exp-0924
+2025-05-26 11:44:51,290 - MacSqlCrew - INFO - - models/gemini-2.5-pro-exp-03-25
+2025-05-26 11:44:51,290 - MacSqlCrew - INFO - - models/gemini-2.5-pro-preview-03-25
+2025-05-26 11:44:51,290 - MacSqlCrew - INFO - - models/gemini-2.5-flash-preview-04-17
+2025-05-26 11:44:51,290 - MacSqlCrew - INFO - - models/gemini-2.5-flash-preview-05-20
+2025-05-26 11:44:51,290 - MacSqlCrew - INFO - - models/gemini-2.5-flash-preview-04-17-thinking
+2025-05-26 11:44:51,290 - MacSqlCrew - INFO - - models/gemini-2.5-pro-preview-05-06
+2025-05-26 11:44:51,290 - MacSqlCrew - INFO - - models/gemini-2.0-flash-exp
+2025-05-26 11:44:51,290 - MacSqlCrew - INFO - - models/gemini-2.0-flash
+2025-05-26 11:44:51,290 - MacSqlCrew - INFO - - models/gemini-2.0-flash-001
+2025-05-26 11:44:51,290 - MacSqlCrew - INFO - - models/gemini-2.0-flash-exp-image-generation
+2025-05-26 11:44:51,290 - MacSqlCrew - INFO - - models/gemini-2.0-flash-lite-001
+2025-05-26 11:44:51,290 - MacSqlCrew - INFO - - models/gemini-2.0-flash-lite
+2025-05-26 11:44:51,290 - MacSqlCrew - INFO - - models/gemini-2.0-flash-preview-image-generation
+2025-05-26 11:44:51,290 - MacSqlCrew - INFO - - models/gemini-2.0-flash-lite-preview-02-05
+2025-05-26 11:44:51,290 - MacSqlCrew - INFO - - models/gemini-2.0-flash-lite-preview
+2025-05-26 11:44:51,290 - MacSqlCrew - INFO - - models/gemini-2.0-pro-exp
+2025-05-26 11:44:51,290 - MacSqlCrew - INFO - - models/gemini-2.0-pro-exp-02-05
+2025-05-26 11:44:51,290 - MacSqlCrew - INFO - - models/gemini-exp-1206
+2025-05-26 11:44:51,290 - MacSqlCrew - INFO - - models/gemini-2.0-flash-thinking-exp-01-21
+2025-05-26 11:44:51,290 - MacSqlCrew - INFO - - models/gemini-2.0-flash-thinking-exp
+2025-05-26 11:44:51,290 - MacSqlCrew - INFO - - models/gemini-2.0-flash-thinking-exp-1219
+2025-05-26 11:44:51,290 - MacSqlCrew - INFO - - models/gemini-2.5-flash-preview-tts
+2025-05-26 11:44:51,290 - MacSqlCrew - INFO - - models/gemini-2.5-pro-preview-tts
+2025-05-26 11:44:51,291 - MacSqlCrew - INFO - - models/learnlm-2.0-flash-experimental
+2025-05-26 11:44:51,291 - MacSqlCrew - INFO - - models/gemma-3-1b-it
+2025-05-26 11:44:51,291 - MacSqlCrew - INFO - - models/gemma-3-4b-it
+2025-05-26 11:44:51,291 - MacSqlCrew - INFO - - models/gemma-3-12b-it
+2025-05-26 11:44:51,291 - MacSqlCrew - INFO - - models/gemma-3-27b-it
+2025-05-26 11:44:51,291 - MacSqlCrew - INFO - - models/gemma-3n-e4b-it
+2025-05-26 11:44:51,291 - MacSqlCrew - INFO - - models/embedding-001
+2025-05-26 11:44:51,291 - MacSqlCrew - INFO - - models/text-embedding-004
+2025-05-26 11:44:51,291 - MacSqlCrew - INFO - - models/gemini-embedding-exp-03-07
+2025-05-26 11:44:51,291 - MacSqlCrew - INFO - - models/gemini-embedding-exp
+2025-05-26 11:44:51,510 - MacSqlCrew - INFO - - models/aqa
+2025-05-26 11:44:51,510 - MacSqlCrew - INFO - - models/imagen-3.0-generate-002
+2025-05-26 11:44:51,511 - MacSqlCrew - INFO - - models/veo-2.0-generate-001
+2025-05-26 11:44:51,511 - MacSqlCrew - INFO - - models/gemini-2.5-flash-preview-native-audio-dialog
+2025-05-26 11:44:51,511 - MacSqlCrew - INFO - - models/gemini-2.5-flash-exp-native-audio-thinking-dialog
+2025-05-26 11:44:51,511 - MacSqlCrew - INFO - - models/gemini-2.0-flash-live-001
+2025-05-26 11:44:52,550 - MacSqlCrew - ERROR - Model validation failed: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-05-26 11:44:52,551 - MacSqlCrew - ERROR - Error initializing MacSqlCrew: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+Traceback (most recent call last):
+  File "/home/joel/repos/poc_crewai_sqlagent/agent.py", line 79, in __init__
+    response = self.llm.generate_content("Test")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/generativeai/generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/ai/generativelanguage_v1beta/services/generative_service/client.py", line 835, in generate_content
+    response = rpc(
+               ^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/gapic_v1/method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 293, in retry_wrapped_func
+    return retry_target(
+           ^^^^^^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 153, in retry_target
+    _retry_error_helper(
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_base.py", line 212, in _retry_error_helper
+    raise final_exc from source_exc
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 144, in retry_target
+    result = target()
+             ^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.NotFound: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-05-26 11:44:52,553 - MacSqlCrew.main - ERROR - Critical error during execution: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+Traceback (most recent call last):
+  File "/home/joel/repos/poc_crewai_sqlagent/main.py", line 24, in main
+    sql_crew = MacSqlCrew()
+               ^^^^^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/crewai/project/crew_base.py", line 31, in __init__
+    super().__init__(*args, **kwargs)
+  File "/home/joel/repos/poc_crewai_sqlagent/agent.py", line 79, in __init__
+    response = self.llm.generate_content("Test")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/generativeai/generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/ai/generativelanguage_v1beta/services/generative_service/client.py", line 835, in generate_content
+    response = rpc(
+               ^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/gapic_v1/method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 293, in retry_wrapped_func
+    return retry_target(
+           ^^^^^^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 153, in retry_target
+    _retry_error_helper(
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_base.py", line 212, in _retry_error_helper
+    raise final_exc from source_exc
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 144, in retry_target
+    result = target()
+             ^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.NotFound: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-05-26 11:45:44,324 - MacSqlCrew.main - INFO - Starting SQL Crew execution
+2025-05-26 11:45:44,325 - MacSqlCrew - INFO - Configured Google AI API
+2025-05-26 11:45:44,325 - MacSqlCrew - INFO - Available models:
+2025-05-26 11:45:45,557 - MacSqlCrew - INFO - - models/embedding-gecko-001
+2025-05-26 11:45:45,557 - MacSqlCrew - INFO - - models/gemini-1.0-pro-vision-latest
+2025-05-26 11:45:45,557 - MacSqlCrew - INFO - - models/gemini-pro-vision
+2025-05-26 11:45:45,558 - MacSqlCrew - INFO - - models/gemini-1.5-pro-latest
+2025-05-26 11:45:45,558 - MacSqlCrew - INFO - - models/gemini-1.5-pro-001
+2025-05-26 11:45:45,558 - MacSqlCrew - INFO - - models/gemini-1.5-pro-002
+2025-05-26 11:45:45,558 - MacSqlCrew - INFO - - models/gemini-1.5-pro
+2025-05-26 11:45:45,558 - MacSqlCrew - INFO - - models/gemini-1.5-flash-latest
+2025-05-26 11:45:45,558 - MacSqlCrew - INFO - - models/gemini-1.5-flash-001
+2025-05-26 11:45:45,559 - MacSqlCrew - INFO - - models/gemini-1.5-flash-001-tuning
+2025-05-26 11:45:45,559 - MacSqlCrew - INFO - - models/gemini-1.5-flash
+2025-05-26 11:45:45,559 - MacSqlCrew - INFO - - models/gemini-1.5-flash-002
+2025-05-26 11:45:45,559 - MacSqlCrew - INFO - - models/gemini-1.5-flash-8b
+2025-05-26 11:45:45,559 - MacSqlCrew - INFO - - models/gemini-1.5-flash-8b-001
+2025-05-26 11:45:45,559 - MacSqlCrew - INFO - - models/gemini-1.5-flash-8b-latest
+2025-05-26 11:45:45,559 - MacSqlCrew - INFO - - models/gemini-1.5-flash-8b-exp-0827
+2025-05-26 11:45:45,559 - MacSqlCrew - INFO - - models/gemini-1.5-flash-8b-exp-0924
+2025-05-26 11:45:45,560 - MacSqlCrew - INFO - - models/gemini-2.5-pro-exp-03-25
+2025-05-26 11:45:45,560 - MacSqlCrew - INFO - - models/gemini-2.5-pro-preview-03-25
+2025-05-26 11:45:45,560 - MacSqlCrew - INFO - - models/gemini-2.5-flash-preview-04-17
+2025-05-26 11:45:45,560 - MacSqlCrew - INFO - - models/gemini-2.5-flash-preview-05-20
+2025-05-26 11:45:45,560 - MacSqlCrew - INFO - - models/gemini-2.5-flash-preview-04-17-thinking
+2025-05-26 11:45:45,560 - MacSqlCrew - INFO - - models/gemini-2.5-pro-preview-05-06
+2025-05-26 11:45:45,560 - MacSqlCrew - INFO - - models/gemini-2.0-flash-exp
+2025-05-26 11:45:45,560 - MacSqlCrew - INFO - - models/gemini-2.0-flash
+2025-05-26 11:45:45,561 - MacSqlCrew - INFO - - models/gemini-2.0-flash-001
+2025-05-26 11:45:45,561 - MacSqlCrew - INFO - - models/gemini-2.0-flash-exp-image-generation
+2025-05-26 11:45:45,561 - MacSqlCrew - INFO - - models/gemini-2.0-flash-lite-001
+2025-05-26 11:45:45,561 - MacSqlCrew - INFO - - models/gemini-2.0-flash-lite
+2025-05-26 11:45:45,561 - MacSqlCrew - INFO - - models/gemini-2.0-flash-preview-image-generation
+2025-05-26 11:45:45,561 - MacSqlCrew - INFO - - models/gemini-2.0-flash-lite-preview-02-05
+2025-05-26 11:45:45,561 - MacSqlCrew - INFO - - models/gemini-2.0-flash-lite-preview
+2025-05-26 11:45:45,561 - MacSqlCrew - INFO - - models/gemini-2.0-pro-exp
+2025-05-26 11:45:45,562 - MacSqlCrew - INFO - - models/gemini-2.0-pro-exp-02-05
+2025-05-26 11:45:45,562 - MacSqlCrew - INFO - - models/gemini-exp-1206
+2025-05-26 11:45:45,562 - MacSqlCrew - INFO - - models/gemini-2.0-flash-thinking-exp-01-21
+2025-05-26 11:45:45,562 - MacSqlCrew - INFO - - models/gemini-2.0-flash-thinking-exp
+2025-05-26 11:45:45,562 - MacSqlCrew - INFO - - models/gemini-2.0-flash-thinking-exp-1219
+2025-05-26 11:45:45,562 - MacSqlCrew - INFO - - models/gemini-2.5-flash-preview-tts
+2025-05-26 11:45:45,562 - MacSqlCrew - INFO - - models/gemini-2.5-pro-preview-tts
+2025-05-26 11:45:45,563 - MacSqlCrew - INFO - - models/learnlm-2.0-flash-experimental
+2025-05-26 11:45:45,563 - MacSqlCrew - INFO - - models/gemma-3-1b-it
+2025-05-26 11:45:45,563 - MacSqlCrew - INFO - - models/gemma-3-4b-it
+2025-05-26 11:45:45,563 - MacSqlCrew - INFO - - models/gemma-3-12b-it
+2025-05-26 11:45:45,563 - MacSqlCrew - INFO - - models/gemma-3-27b-it
+2025-05-26 11:45:45,563 - MacSqlCrew - INFO - - models/gemma-3n-e4b-it
+2025-05-26 11:45:45,563 - MacSqlCrew - INFO - - models/embedding-001
+2025-05-26 11:45:45,563 - MacSqlCrew - INFO - - models/text-embedding-004
+2025-05-26 11:45:45,564 - MacSqlCrew - INFO - - models/gemini-embedding-exp-03-07
+2025-05-26 11:45:45,564 - MacSqlCrew - INFO - - models/gemini-embedding-exp
+2025-05-26 11:45:45,776 - MacSqlCrew - INFO - - models/aqa
+2025-05-26 11:45:45,777 - MacSqlCrew - INFO - - models/imagen-3.0-generate-002
+2025-05-26 11:45:45,777 - MacSqlCrew - INFO - - models/veo-2.0-generate-001
+2025-05-26 11:45:45,777 - MacSqlCrew - INFO - - models/gemini-2.5-flash-preview-native-audio-dialog
+2025-05-26 11:45:45,778 - MacSqlCrew - INFO - - models/gemini-2.5-flash-exp-native-audio-thinking-dialog
+2025-05-26 11:45:45,778 - MacSqlCrew - INFO - - models/gemini-2.0-flash-live-001
+2025-05-26 11:45:46,799 - MacSqlCrew - ERROR - Model validation failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-pro-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_requests_per_model_per_day"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel"
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-pro-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-pro-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerDay-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-pro-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 13
+}
+]
+2025-05-26 11:45:46,799 - MacSqlCrew - ERROR - Error initializing MacSqlCrew: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-pro-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_requests_per_model_per_day"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel"
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-pro-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-pro-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerDay-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-pro-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 13
+}
+]
+Traceback (most recent call last):
+  File "/home/joel/repos/poc_crewai_sqlagent/agent.py", line 80, in __init__
+    response = self.llm.generate_content("Test")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/generativeai/generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/ai/generativelanguage_v1beta/services/generative_service/client.py", line 835, in generate_content
+    response = rpc(
+               ^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/gapic_v1/method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 293, in retry_wrapped_func
+    return retry_target(
+           ^^^^^^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 153, in retry_target
+    _retry_error_helper(
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_base.py", line 212, in _retry_error_helper
+    raise final_exc from source_exc
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 144, in retry_target
+    result = target()
+             ^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-pro-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_requests_per_model_per_day"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel"
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-pro-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-pro-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerDay-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-pro-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 13
+}
+]
+2025-05-26 11:45:46,801 - MacSqlCrew.main - ERROR - Critical error during execution: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-pro-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_requests_per_model_per_day"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel"
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-pro-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-pro-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerDay-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-pro-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 13
+}
+]
+Traceback (most recent call last):
+  File "/home/joel/repos/poc_crewai_sqlagent/main.py", line 24, in main
+    sql_crew = MacSqlCrew()
+               ^^^^^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/crewai/project/crew_base.py", line 31, in __init__
+    super().__init__(*args, **kwargs)
+  File "/home/joel/repos/poc_crewai_sqlagent/agent.py", line 80, in __init__
+    response = self.llm.generate_content("Test")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/generativeai/generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/ai/generativelanguage_v1beta/services/generative_service/client.py", line 835, in generate_content
+    response = rpc(
+               ^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/gapic_v1/method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 293, in retry_wrapped_func
+    return retry_target(
+           ^^^^^^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 153, in retry_target
+    _retry_error_helper(
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_base.py", line 212, in _retry_error_helper
+    raise final_exc from source_exc
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 144, in retry_target
+    result = target()
+             ^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-pro-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_requests_per_model_per_day"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel"
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-pro-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-pro-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerDay-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-pro-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 13
+}
+]
+2025-05-26 11:46:05,715 - MacSqlCrew.main - INFO - Starting SQL Crew execution
+2025-05-26 11:46:05,716 - MacSqlCrew - INFO - Configured Google AI API
+2025-05-26 11:46:07,079 - MacSqlCrew - ERROR - Model validation failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-pro-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_requests_per_model_per_day"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel"
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-pro-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-pro-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerDay-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-pro-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 53
+}
+]
+2025-05-26 11:46:07,080 - MacSqlCrew - ERROR - Error initializing MacSqlCrew: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-pro-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_requests_per_model_per_day"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel"
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-pro-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-pro-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerDay-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-pro-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 53
+}
+]
+Traceback (most recent call last):
+  File "/home/joel/repos/poc_crewai_sqlagent/agent.py", line 80, in __init__
+    response = self.llm.generate_content("Test")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/generativeai/generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/ai/generativelanguage_v1beta/services/generative_service/client.py", line 835, in generate_content
+    response = rpc(
+               ^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/gapic_v1/method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 293, in retry_wrapped_func
+    return retry_target(
+           ^^^^^^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 153, in retry_target
+    _retry_error_helper(
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_base.py", line 212, in _retry_error_helper
+    raise final_exc from source_exc
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 144, in retry_target
+    result = target()
+             ^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-pro-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_requests_per_model_per_day"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel"
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-pro-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-pro-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerDay-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-pro-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 53
+}
+]
+2025-05-26 11:46:07,084 - MacSqlCrew.main - ERROR - Critical error during execution: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-pro-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_requests_per_model_per_day"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel"
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-pro-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-pro-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerDay-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-pro-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 53
+}
+]
+Traceback (most recent call last):
+  File "/home/joel/repos/poc_crewai_sqlagent/main.py", line 24, in main
+    sql_crew = MacSqlCrew()
+               ^^^^^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/crewai/project/crew_base.py", line 31, in __init__
+    super().__init__(*args, **kwargs)
+  File "/home/joel/repos/poc_crewai_sqlagent/agent.py", line 80, in __init__
+    response = self.llm.generate_content("Test")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/generativeai/generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/ai/generativelanguage_v1beta/services/generative_service/client.py", line 835, in generate_content
+    response = rpc(
+               ^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/gapic_v1/method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 293, in retry_wrapped_func
+    return retry_target(
+           ^^^^^^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 153, in retry_target
+    _retry_error_helper(
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_base.py", line 212, in _retry_error_helper
+    raise final_exc from source_exc
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 144, in retry_target
+    result = target()
+             ^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-pro-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_requests_per_model_per_day"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel"
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-pro-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-pro-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerDay-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-pro-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 53
+}
+]
+2025-05-26 11:48:39,643 - MacSqlCrew.main - INFO - Starting SQL Crew execution
+2025-05-26 11:48:39,644 - MacSqlCrew - INFO - Configured Google AI API
+2025-05-26 11:48:41,094 - MacSqlCrew - ERROR - Model validation failed: 429 Gemini 2.5 Pro Preview doesn't have a free quota tier. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerDay-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 19
+}
+]
+2025-05-26 11:48:41,094 - MacSqlCrew - ERROR - Error initializing MacSqlCrew: 429 Gemini 2.5 Pro Preview doesn't have a free quota tier. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerDay-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 19
+}
+]
+Traceback (most recent call last):
+  File "/home/joel/repos/poc_crewai_sqlagent/agent.py", line 80, in __init__
+    response = self.llm.generate_content("Test")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/generativeai/generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/ai/generativelanguage_v1beta/services/generative_service/client.py", line 835, in generate_content
+    response = rpc(
+               ^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/gapic_v1/method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 293, in retry_wrapped_func
+    return retry_target(
+           ^^^^^^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 153, in retry_target
+    _retry_error_helper(
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_base.py", line 212, in _retry_error_helper
+    raise final_exc from source_exc
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 144, in retry_target
+    result = target()
+             ^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ResourceExhausted: 429 Gemini 2.5 Pro Preview doesn't have a free quota tier. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerDay-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 19
+}
+]
+2025-05-26 11:48:41,097 - MacSqlCrew.main - ERROR - Critical error during execution: 429 Gemini 2.5 Pro Preview doesn't have a free quota tier. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerDay-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 19
+}
+]
+Traceback (most recent call last):
+  File "/home/joel/repos/poc_crewai_sqlagent/main.py", line 24, in main
+    sql_crew = MacSqlCrew()
+               ^^^^^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/crewai/project/crew_base.py", line 31, in __init__
+    super().__init__(*args, **kwargs)
+  File "/home/joel/repos/poc_crewai_sqlagent/agent.py", line 80, in __init__
+    response = self.llm.generate_content("Test")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/generativeai/generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/ai/generativelanguage_v1beta/services/generative_service/client.py", line 835, in generate_content
+    response = rpc(
+               ^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/gapic_v1/method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 293, in retry_wrapped_func
+    return retry_target(
+           ^^^^^^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 153, in retry_target
+    _retry_error_helper(
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_base.py", line 212, in _retry_error_helper
+    raise final_exc from source_exc
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 144, in retry_target
+    result = target()
+             ^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ResourceExhausted: 429 Gemini 2.5 Pro Preview doesn't have a free quota tier. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerDay-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 19
+}
+]
+2025-05-26 11:50:09,239 - MacSqlCrew.main - INFO - Starting SQL Crew execution
+2025-05-26 11:50:09,240 - MacSqlCrew - INFO - Configured Google AI API
+2025-05-26 11:50:09,240 - MacSqlCrew - INFO - Available models:
+2025-05-26 11:50:10,416 - MacSqlCrew - INFO - - models/embedding-gecko-001
+2025-05-26 11:50:10,416 - MacSqlCrew - INFO - - models/gemini-1.0-pro-vision-latest
+2025-05-26 11:50:10,416 - MacSqlCrew - INFO - - models/gemini-pro-vision
+2025-05-26 11:50:10,417 - MacSqlCrew - INFO - - models/gemini-1.5-pro-latest
+2025-05-26 11:50:10,417 - MacSqlCrew - INFO - - models/gemini-1.5-pro-001
+2025-05-26 11:50:10,417 - MacSqlCrew - INFO - - models/gemini-1.5-pro-002
+2025-05-26 11:50:10,417 - MacSqlCrew - INFO - - models/gemini-1.5-pro
+2025-05-26 11:50:10,417 - MacSqlCrew - INFO - - models/gemini-1.5-flash-latest
+2025-05-26 11:50:10,417 - MacSqlCrew - INFO - - models/gemini-1.5-flash-001
+2025-05-26 11:50:10,417 - MacSqlCrew - INFO - - models/gemini-1.5-flash-001-tuning
+2025-05-26 11:50:10,417 - MacSqlCrew - INFO - - models/gemini-1.5-flash
+2025-05-26 11:50:10,418 - MacSqlCrew - INFO - - models/gemini-1.5-flash-002
+2025-05-26 11:50:10,418 - MacSqlCrew - INFO - - models/gemini-1.5-flash-8b
+2025-05-26 11:50:10,418 - MacSqlCrew - INFO - - models/gemini-1.5-flash-8b-001
+2025-05-26 11:50:10,418 - MacSqlCrew - INFO - - models/gemini-1.5-flash-8b-latest
+2025-05-26 11:50:10,418 - MacSqlCrew - INFO - - models/gemini-1.5-flash-8b-exp-0827
+2025-05-26 11:50:10,418 - MacSqlCrew - INFO - - models/gemini-1.5-flash-8b-exp-0924
+2025-05-26 11:50:10,418 - MacSqlCrew - INFO - - models/gemini-2.5-pro-exp-03-25
+2025-05-26 11:50:10,418 - MacSqlCrew - INFO - - models/gemini-2.5-pro-preview-03-25
+2025-05-26 11:50:10,419 - MacSqlCrew - INFO - - models/gemini-2.5-flash-preview-04-17
+2025-05-26 11:50:10,419 - MacSqlCrew - INFO - - models/gemini-2.5-flash-preview-05-20
+2025-05-26 11:50:10,419 - MacSqlCrew - INFO - - models/gemini-2.5-flash-preview-04-17-thinking
+2025-05-26 11:50:10,419 - MacSqlCrew - INFO - - models/gemini-2.5-pro-preview-05-06
+2025-05-26 11:50:10,419 - MacSqlCrew - INFO - - models/gemini-2.0-flash-exp
+2025-05-26 11:50:10,419 - MacSqlCrew - INFO - - models/gemini-2.0-flash
+2025-05-26 11:50:10,419 - MacSqlCrew - INFO - - models/gemini-2.0-flash-001
+2025-05-26 11:50:10,420 - MacSqlCrew - INFO - - models/gemini-2.0-flash-exp-image-generation
+2025-05-26 11:50:10,420 - MacSqlCrew - INFO - - models/gemini-2.0-flash-lite-001
+2025-05-26 11:50:10,420 - MacSqlCrew - INFO - - models/gemini-2.0-flash-lite
+2025-05-26 11:50:10,420 - MacSqlCrew - INFO - - models/gemini-2.0-flash-preview-image-generation
+2025-05-26 11:50:10,420 - MacSqlCrew - INFO - - models/gemini-2.0-flash-lite-preview-02-05
+2025-05-26 11:50:10,420 - MacSqlCrew - INFO - - models/gemini-2.0-flash-lite-preview
+2025-05-26 11:50:10,420 - MacSqlCrew - INFO - - models/gemini-2.0-pro-exp
+2025-05-26 11:50:10,420 - MacSqlCrew - INFO - - models/gemini-2.0-pro-exp-02-05
+2025-05-26 11:50:10,421 - MacSqlCrew - INFO - - models/gemini-exp-1206
+2025-05-26 11:50:10,421 - MacSqlCrew - INFO - - models/gemini-2.0-flash-thinking-exp-01-21
+2025-05-26 11:50:10,421 - MacSqlCrew - INFO - - models/gemini-2.0-flash-thinking-exp
+2025-05-26 11:50:10,421 - MacSqlCrew - INFO - - models/gemini-2.0-flash-thinking-exp-1219
+2025-05-26 11:50:10,421 - MacSqlCrew - INFO - - models/gemini-2.5-flash-preview-tts
+2025-05-26 11:50:10,421 - MacSqlCrew - INFO - - models/gemini-2.5-pro-preview-tts
+2025-05-26 11:50:10,421 - MacSqlCrew - INFO - - models/learnlm-2.0-flash-experimental
+2025-05-26 11:50:10,422 - MacSqlCrew - INFO - - models/gemma-3-1b-it
+2025-05-26 11:50:10,422 - MacSqlCrew - INFO - - models/gemma-3-4b-it
+2025-05-26 11:50:10,422 - MacSqlCrew - INFO - - models/gemma-3-12b-it
+2025-05-26 11:50:10,422 - MacSqlCrew - INFO - - models/gemma-3-27b-it
+2025-05-26 11:50:10,422 - MacSqlCrew - INFO - - models/gemma-3n-e4b-it
+2025-05-26 11:50:10,422 - MacSqlCrew - INFO - - models/embedding-001
+2025-05-26 11:50:10,422 - MacSqlCrew - INFO - - models/text-embedding-004
+2025-05-26 11:50:10,423 - MacSqlCrew - INFO - - models/gemini-embedding-exp-03-07
+2025-05-26 11:50:10,423 - MacSqlCrew - INFO - - models/gemini-embedding-exp
+2025-05-26 11:50:10,697 - MacSqlCrew - INFO - - models/aqa
+2025-05-26 11:50:10,698 - MacSqlCrew - INFO - - models/imagen-3.0-generate-002
+2025-05-26 11:50:10,698 - MacSqlCrew - INFO - - models/veo-2.0-generate-001
+2025-05-26 11:50:10,699 - MacSqlCrew - INFO - - models/gemini-2.5-flash-preview-native-audio-dialog
+2025-05-26 11:50:10,699 - MacSqlCrew - INFO - - models/gemini-2.5-flash-exp-native-audio-thinking-dialog
+2025-05-26 11:50:10,700 - MacSqlCrew - INFO - - models/gemini-2.0-flash-live-001
+2025-05-26 11:50:12,535 - MacSqlCrew - INFO - LLM model validated successfully
+2025-05-26 11:50:12,535 - MacSqlCrew - INFO - LLM model initialized successfully
+2025-05-26 11:50:12,539 - MacSqlCrew.main - INFO - Processing question: What are the total sales for each customer, and who has spent the most?
+2025-05-26 11:50:12,539 - MacSqlCrew - INFO - Starting select_relevant_schema_task
+2025-05-26 11:50:12,539 - MacSqlCrew - INFO - Creating schema selection task
+2025-05-26 11:50:12,539 - MacSqlCrew - INFO - Starting selector_agent
+2025-05-26 11:50:12,539 - MacSqlCrew - INFO - Creating selector agent
+2025-05-26 11:50:12,541 - MacSqlCrew - INFO - Completed selector_agent in 0.00 seconds
+2025-05-26 11:50:12,541 - MacSqlCrew - INFO - Completed select_relevant_schema_task in 0.00 seconds
+2025-05-26 11:50:12,542 - MacSqlCrew - INFO - Starting select_relevant_column_values
+2025-05-26 11:50:12,542 - MacSqlCrew - INFO - Creating column values selection task
+2025-05-26 11:50:12,542 - MacSqlCrew - INFO - Starting selector_agent
+2025-05-26 11:50:12,542 - MacSqlCrew - INFO - Completed selector_agent in 0.00 seconds
+2025-05-26 11:50:12,542 - MacSqlCrew - INFO - Completed select_relevant_column_values in 0.00 seconds
+2025-05-26 11:50:12,542 - MacSqlCrew - INFO - Starting decompose_question_task
+2025-05-26 11:50:12,542 - MacSqlCrew - INFO - Creating question decomposition task
+2025-05-26 11:50:12,542 - MacSqlCrew - INFO - Starting decomposer_agent
+2025-05-26 11:50:12,542 - MacSqlCrew - INFO - Creating decomposer agent
+2025-05-26 11:50:12,544 - MacSqlCrew - INFO - Completed decomposer_agent in 0.00 seconds
+2025-05-26 11:50:12,544 - MacSqlCrew - INFO - Starting select_relevant_schema_task
+2025-05-26 11:50:12,544 - MacSqlCrew - INFO - Completed select_relevant_schema_task in 0.00 seconds
+2025-05-26 11:50:12,545 - MacSqlCrew - INFO - Starting select_relevant_column_values
+2025-05-26 11:50:12,545 - MacSqlCrew - INFO - Completed select_relevant_column_values in 0.00 seconds
+2025-05-26 11:50:12,545 - MacSqlCrew - INFO - Completed decompose_question_task in 0.00 seconds
+2025-05-26 11:50:12,545 - MacSqlCrew - INFO - Starting refine_sql_task
+2025-05-26 11:50:12,545 - MacSqlCrew - INFO - Creating SQL refinement task
+2025-05-26 11:50:12,545 - MacSqlCrew - INFO - Starting refiner_agent
+2025-05-26 11:50:12,545 - MacSqlCrew - INFO - Creating refiner agent
+2025-05-26 11:50:12,547 - MacSqlCrew - INFO - Completed refiner_agent in 0.00 seconds
+2025-05-26 11:50:12,547 - MacSqlCrew - INFO - Starting select_relevant_schema_task
+2025-05-26 11:50:12,547 - MacSqlCrew - INFO - Completed select_relevant_schema_task in 0.00 seconds
+2025-05-26 11:50:12,547 - MacSqlCrew - INFO - Starting select_relevant_column_values
+2025-05-26 11:50:12,547 - MacSqlCrew - INFO - Completed select_relevant_column_values in 0.00 seconds
+2025-05-26 11:50:12,547 - MacSqlCrew - INFO - Starting decompose_question_task
+2025-05-26 11:50:12,547 - MacSqlCrew - INFO - Completed decompose_question_task in 0.00 seconds
+2025-05-26 11:50:12,548 - MacSqlCrew - INFO - Completed refine_sql_task in 0.00 seconds
+2025-05-26 11:50:12,548 - MacSqlCrew - INFO - Starting selector_agent
+2025-05-26 11:50:12,548 - MacSqlCrew - INFO - Completed selector_agent in 0.00 seconds
+2025-05-26 11:50:12,548 - MacSqlCrew - INFO - Starting decomposer_agent
+2025-05-26 11:50:12,548 - MacSqlCrew - INFO - Completed decomposer_agent in 0.00 seconds
+2025-05-26 11:50:12,548 - MacSqlCrew - INFO - Starting refiner_agent
+2025-05-26 11:50:12,548 - MacSqlCrew - INFO - Completed refiner_agent in 0.00 seconds
+2025-05-26 11:50:12,552 - MacSqlCrew.main - INFO - Starting crew execution
+2025-05-26 11:55:09,240 - MacSqlCrew.main - ERROR - Operation timed out
+2025-05-26 12:02:03,492 - MacSqlCrew.main - INFO - Starting SQL Crew execution
+2025-05-26 12:02:03,492 - MacSqlCrew - INFO - Configured Google AI API
+2025-05-26 12:02:03,492 - MacSqlCrew - INFO - Available models:
+2025-05-26 12:02:04,867 - MacSqlCrew - INFO - - models/embedding-gecko-001
+2025-05-26 12:02:04,867 - MacSqlCrew - INFO - - models/gemini-1.0-pro-vision-latest
+2025-05-26 12:02:04,868 - MacSqlCrew - INFO - - models/gemini-pro-vision
+2025-05-26 12:02:04,868 - MacSqlCrew - INFO - - models/gemini-1.5-pro-latest
+2025-05-26 12:02:04,868 - MacSqlCrew - INFO - - models/gemini-1.5-pro-001
+2025-05-26 12:02:04,868 - MacSqlCrew - INFO - - models/gemini-1.5-pro-002
+2025-05-26 12:02:04,868 - MacSqlCrew - INFO - - models/gemini-1.5-pro
+2025-05-26 12:02:04,868 - MacSqlCrew - INFO - - models/gemini-1.5-flash-latest
+2025-05-26 12:02:04,869 - MacSqlCrew - INFO - - models/gemini-1.5-flash-001
+2025-05-26 12:02:04,869 - MacSqlCrew - INFO - - models/gemini-1.5-flash-001-tuning
+2025-05-26 12:02:04,869 - MacSqlCrew - INFO - - models/gemini-1.5-flash
+2025-05-26 12:02:04,869 - MacSqlCrew - INFO - - models/gemini-1.5-flash-002
+2025-05-26 12:02:04,869 - MacSqlCrew - INFO - - models/gemini-1.5-flash-8b
+2025-05-26 12:02:04,869 - MacSqlCrew - INFO - - models/gemini-1.5-flash-8b-001
+2025-05-26 12:02:04,870 - MacSqlCrew - INFO - - models/gemini-1.5-flash-8b-latest
+2025-05-26 12:02:04,870 - MacSqlCrew - INFO - - models/gemini-1.5-flash-8b-exp-0827
+2025-05-26 12:02:04,870 - MacSqlCrew - INFO - - models/gemini-1.5-flash-8b-exp-0924
+2025-05-26 12:02:04,870 - MacSqlCrew - INFO - - models/gemini-2.5-pro-exp-03-25
+2025-05-26 12:02:04,870 - MacSqlCrew - INFO - - models/gemini-2.5-pro-preview-03-25
+2025-05-26 12:02:04,870 - MacSqlCrew - INFO - - models/gemini-2.5-flash-preview-04-17
+2025-05-26 12:02:04,870 - MacSqlCrew - INFO - - models/gemini-2.5-flash-preview-05-20
+2025-05-26 12:02:04,870 - MacSqlCrew - INFO - - models/gemini-2.5-flash-preview-04-17-thinking
+2025-05-26 12:02:04,871 - MacSqlCrew - INFO - - models/gemini-2.5-pro-preview-05-06
+2025-05-26 12:02:04,871 - MacSqlCrew - INFO - - models/gemini-2.0-flash-exp
+2025-05-26 12:02:04,871 - MacSqlCrew - INFO - - models/gemini-2.0-flash
+2025-05-26 12:02:04,871 - MacSqlCrew - INFO - - models/gemini-2.0-flash-001
+2025-05-26 12:02:04,871 - MacSqlCrew - INFO - - models/gemini-2.0-flash-exp-image-generation
+2025-05-26 12:02:04,871 - MacSqlCrew - INFO - - models/gemini-2.0-flash-lite-001
+2025-05-26 12:02:04,871 - MacSqlCrew - INFO - - models/gemini-2.0-flash-lite
+2025-05-26 12:02:04,871 - MacSqlCrew - INFO - - models/gemini-2.0-flash-preview-image-generation
+2025-05-26 12:02:04,872 - MacSqlCrew - INFO - - models/gemini-2.0-flash-lite-preview-02-05
+2025-05-26 12:02:04,872 - MacSqlCrew - INFO - - models/gemini-2.0-flash-lite-preview
+2025-05-26 12:02:04,872 - MacSqlCrew - INFO - - models/gemini-2.0-pro-exp
+2025-05-26 12:02:04,872 - MacSqlCrew - INFO - - models/gemini-2.0-pro-exp-02-05
+2025-05-26 12:02:04,872 - MacSqlCrew - INFO - - models/gemini-exp-1206
+2025-05-26 12:02:04,872 - MacSqlCrew - INFO - - models/gemini-2.0-flash-thinking-exp-01-21
+2025-05-26 12:02:04,872 - MacSqlCrew - INFO - - models/gemini-2.0-flash-thinking-exp
+2025-05-26 12:02:04,872 - MacSqlCrew - INFO - - models/gemini-2.0-flash-thinking-exp-1219
+2025-05-26 12:02:04,872 - MacSqlCrew - INFO - - models/gemini-2.5-flash-preview-tts
+2025-05-26 12:02:04,872 - MacSqlCrew - INFO - - models/gemini-2.5-pro-preview-tts
+2025-05-26 12:02:04,872 - MacSqlCrew - INFO - - models/learnlm-2.0-flash-experimental
+2025-05-26 12:02:04,872 - MacSqlCrew - INFO - - models/gemma-3-1b-it
+2025-05-26 12:02:04,872 - MacSqlCrew - INFO - - models/gemma-3-4b-it
+2025-05-26 12:02:04,872 - MacSqlCrew - INFO - - models/gemma-3-12b-it
+2025-05-26 12:02:04,873 - MacSqlCrew - INFO - - models/gemma-3-27b-it
+2025-05-26 12:02:04,873 - MacSqlCrew - INFO - - models/gemma-3n-e4b-it
+2025-05-26 12:02:04,873 - MacSqlCrew - INFO - - models/embedding-001
+2025-05-26 12:02:04,873 - MacSqlCrew - INFO - - models/text-embedding-004
+2025-05-26 12:02:04,873 - MacSqlCrew - INFO - - models/gemini-embedding-exp-03-07
+2025-05-26 12:02:04,873 - MacSqlCrew - INFO - - models/gemini-embedding-exp
+2025-05-26 12:02:05,068 - MacSqlCrew - INFO - - models/aqa
+2025-05-26 12:02:05,069 - MacSqlCrew - INFO - - models/imagen-3.0-generate-002
+2025-05-26 12:02:05,069 - MacSqlCrew - INFO - - models/veo-2.0-generate-001
+2025-05-26 12:02:05,069 - MacSqlCrew - INFO - - models/gemini-2.5-flash-preview-native-audio-dialog
+2025-05-26 12:02:05,069 - MacSqlCrew - INFO - - models/gemini-2.5-flash-exp-native-audio-thinking-dialog
+2025-05-26 12:02:05,070 - MacSqlCrew - INFO - - models/gemini-2.0-flash-live-001
+2025-05-26 12:02:06,544 - MacSqlCrew - INFO - LLM model validated successfully
+2025-05-26 12:02:06,544 - MacSqlCrew - INFO - LLM model initialized successfully
+2025-05-26 12:02:06,547 - MacSqlCrew.main - INFO - Processing question: What is the name of our customers?
+2025-05-26 12:02:06,548 - MacSqlCrew - INFO - Starting select_relevant_schema_task
+2025-05-26 12:02:06,548 - MacSqlCrew - INFO - Creating schema selection task
+2025-05-26 12:02:06,548 - MacSqlCrew - INFO - Starting selector_agent
+2025-05-26 12:02:06,548 - MacSqlCrew - INFO - Creating selector agent
+2025-05-26 12:02:06,549 - MacSqlCrew - INFO - Completed selector_agent in 0.00 seconds
+2025-05-26 12:02:06,550 - MacSqlCrew - INFO - Completed select_relevant_schema_task in 0.00 seconds
+2025-05-26 12:02:06,550 - MacSqlCrew - INFO - Starting select_relevant_column_values
+2025-05-26 12:02:06,550 - MacSqlCrew - INFO - Creating column values selection task
+2025-05-26 12:02:06,550 - MacSqlCrew - INFO - Starting selector_agent
+2025-05-26 12:02:06,550 - MacSqlCrew - INFO - Completed selector_agent in 0.00 seconds
+2025-05-26 12:02:06,550 - MacSqlCrew - INFO - Completed select_relevant_column_values in 0.00 seconds
+2025-05-26 12:02:06,550 - MacSqlCrew - INFO - Starting decompose_question_task
+2025-05-26 12:02:06,550 - MacSqlCrew - INFO - Creating question decomposition task
+2025-05-26 12:02:06,551 - MacSqlCrew - INFO - Starting decomposer_agent
+2025-05-26 12:02:06,551 - MacSqlCrew - INFO - Creating decomposer agent
+2025-05-26 12:02:06,552 - MacSqlCrew - INFO - Completed decomposer_agent in 0.00 seconds
+2025-05-26 12:02:06,552 - MacSqlCrew - INFO - Starting select_relevant_schema_task
+2025-05-26 12:02:06,552 - MacSqlCrew - INFO - Completed select_relevant_schema_task in 0.00 seconds
+2025-05-26 12:02:06,552 - MacSqlCrew - INFO - Starting select_relevant_column_values
+2025-05-26 12:02:06,552 - MacSqlCrew - INFO - Completed select_relevant_column_values in 0.00 seconds
+2025-05-26 12:02:06,552 - MacSqlCrew - INFO - Completed decompose_question_task in 0.00 seconds
+2025-05-26 12:02:06,552 - MacSqlCrew - INFO - Starting refine_sql_task
+2025-05-26 12:02:06,552 - MacSqlCrew - INFO - Creating SQL refinement task
+2025-05-26 12:02:06,552 - MacSqlCrew - INFO - Starting refiner_agent
+2025-05-26 12:02:06,552 - MacSqlCrew - INFO - Creating refiner agent
+2025-05-26 12:02:06,553 - MacSqlCrew - INFO - Completed refiner_agent in 0.00 seconds
+2025-05-26 12:02:06,553 - MacSqlCrew - INFO - Starting select_relevant_schema_task
+2025-05-26 12:02:06,553 - MacSqlCrew - INFO - Completed select_relevant_schema_task in 0.00 seconds
+2025-05-26 12:02:06,554 - MacSqlCrew - INFO - Starting select_relevant_column_values
+2025-05-26 12:02:06,554 - MacSqlCrew - INFO - Completed select_relevant_column_values in 0.00 seconds
+2025-05-26 12:02:06,554 - MacSqlCrew - INFO - Starting decompose_question_task
+2025-05-26 12:02:06,554 - MacSqlCrew - INFO - Completed decompose_question_task in 0.00 seconds
+2025-05-26 12:02:06,554 - MacSqlCrew - INFO - Completed refine_sql_task in 0.00 seconds
+2025-05-26 12:02:06,554 - MacSqlCrew - INFO - Starting selector_agent
+2025-05-26 12:02:06,554 - MacSqlCrew - INFO - Completed selector_agent in 0.00 seconds
+2025-05-26 12:02:06,554 - MacSqlCrew - INFO - Starting decomposer_agent
+2025-05-26 12:02:06,554 - MacSqlCrew - INFO - Completed decomposer_agent in 0.00 seconds
+2025-05-26 12:02:06,554 - MacSqlCrew - INFO - Starting refiner_agent
+2025-05-26 12:02:06,554 - MacSqlCrew - INFO - Completed refiner_agent in 0.00 seconds
+2025-05-26 12:02:06,558 - MacSqlCrew.main - INFO - Starting crew execution
+2025-05-26 12:07:03,492 - MacSqlCrew.main - ERROR - Operation timed out
+2025-05-26 12:40:58,362 - MacSqlCrew.main - INFO - Starting SQL Crew execution
+2025-05-26 12:40:58,363 - MacSqlCrew - INFO - Configured Google AI API
+2025-05-26 12:40:58,363 - MacSqlCrew - ERROR - Error initializing MacSqlCrew: GenerationConfig.__init__() got an unexpected keyword argument 'timeout'
+Traceback (most recent call last):
+  File "/home/joel/repos/poc_crewai_sqlagent/agent.py", line 60, in __init__
+    generation_config=GenerationConfig(
+                      ^^^^^^^^^^^^^^^^^
+TypeError: GenerationConfig.__init__() got an unexpected keyword argument 'timeout'
+2025-05-26 12:40:58,363 - MacSqlCrew.main - ERROR - Critical error during execution: GenerationConfig.__init__() got an unexpected keyword argument 'timeout'
+Traceback (most recent call last):
+  File "/home/joel/repos/poc_crewai_sqlagent/main.py", line 24, in main
+    sql_crew = MacSqlCrew()
+               ^^^^^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/crewai/project/crew_base.py", line 31, in __init__
+    super().__init__(*args, **kwargs)
+  File "/home/joel/repos/poc_crewai_sqlagent/agent.py", line 60, in __init__
+    generation_config=GenerationConfig(
+                      ^^^^^^^^^^^^^^^^^
+TypeError: GenerationConfig.__init__() got an unexpected keyword argument 'timeout'
+2025-05-26 12:41:10,465 - MacSqlCrew.main - INFO - Starting SQL Crew execution
+2025-05-26 12:41:10,466 - MacSqlCrew - INFO - Configured Google AI API
+2025-05-26 12:41:11,700 - MacSqlCrew - ERROR - Model validation failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro-tts"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro-tts"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro-tts"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 48
+}
+]
+2025-05-26 12:41:11,701 - MacSqlCrew - ERROR - Error initializing MacSqlCrew: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro-tts"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro-tts"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro-tts"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 48
+}
+]
+Traceback (most recent call last):
+  File "/home/joel/repos/poc_crewai_sqlagent/agent.py", line 73, in __init__
+    response = future.result(timeout=30)  # 30 seconds timeout
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/joel/snap/code/191/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/lib/python3.12/concurrent/futures/_base.py", line 456, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/joel/snap/code/191/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/home/joel/snap/code/191/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/lib/python3.12/concurrent/futures/thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/generativeai/generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/ai/generativelanguage_v1beta/services/generative_service/client.py", line 835, in generate_content
+    response = rpc(
+               ^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/gapic_v1/method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 293, in retry_wrapped_func
+    return retry_target(
+           ^^^^^^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 153, in retry_target
+    _retry_error_helper(
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_base.py", line 212, in _retry_error_helper
+    raise final_exc from source_exc
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 144, in retry_target
+    result = target()
+             ^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro-tts"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro-tts"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro-tts"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 48
+}
+]
+2025-05-26 12:41:11,707 - MacSqlCrew.main - ERROR - Critical error during execution: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro-tts"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro-tts"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro-tts"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 48
+}
+]
+Traceback (most recent call last):
+  File "/home/joel/repos/poc_crewai_sqlagent/main.py", line 24, in main
+    sql_crew = MacSqlCrew()
+               ^^^^^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/crewai/project/crew_base.py", line 31, in __init__
+    super().__init__(*args, **kwargs)
+  File "/home/joel/repos/poc_crewai_sqlagent/agent.py", line 73, in __init__
+    response = future.result(timeout=30)  # 30 seconds timeout
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/joel/snap/code/191/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/lib/python3.12/concurrent/futures/_base.py", line 456, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/joel/snap/code/191/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/home/joel/snap/code/191/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/lib/python3.12/concurrent/futures/thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/generativeai/generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/ai/generativelanguage_v1beta/services/generative_service/client.py", line 835, in generate_content
+    response = rpc(
+               ^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/gapic_v1/method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 293, in retry_wrapped_func
+    return retry_target(
+           ^^^^^^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 153, in retry_target
+    _retry_error_helper(
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_base.py", line 212, in _retry_error_helper
+    raise final_exc from source_exc
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 144, in retry_target
+    result = target()
+             ^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro-tts"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro-tts"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro-tts"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 48
+}
+]
+2025-05-26 12:42:17,929 - MacSqlCrew.main - INFO - Starting SQL Crew execution
+2025-05-26 12:42:17,930 - MacSqlCrew - INFO - Configured Google AI API
+2025-05-26 12:42:19,135 - MacSqlCrew - ERROR - Model validation failed: 429 Gemini 2.5 Pro Preview doesn't have a free quota tier. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerDay-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 40
+}
+]
+2025-05-26 12:42:19,136 - MacSqlCrew - ERROR - Error initializing MacSqlCrew: 429 Gemini 2.5 Pro Preview doesn't have a free quota tier. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerDay-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 40
+}
+]
+Traceback (most recent call last):
+  File "/home/joel/repos/poc_crewai_sqlagent/agent.py", line 73, in __init__
+    response = future.result(timeout=30)  # 30 seconds timeout
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/joel/snap/code/191/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/lib/python3.12/concurrent/futures/_base.py", line 456, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/joel/snap/code/191/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/home/joel/snap/code/191/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/lib/python3.12/concurrent/futures/thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/generativeai/generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/ai/generativelanguage_v1beta/services/generative_service/client.py", line 835, in generate_content
+    response = rpc(
+               ^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/gapic_v1/method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 293, in retry_wrapped_func
+    return retry_target(
+           ^^^^^^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 153, in retry_target
+    _retry_error_helper(
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_base.py", line 212, in _retry_error_helper
+    raise final_exc from source_exc
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 144, in retry_target
+    result = target()
+             ^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ResourceExhausted: 429 Gemini 2.5 Pro Preview doesn't have a free quota tier. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerDay-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 40
+}
+]
+2025-05-26 12:42:19,140 - MacSqlCrew.main - ERROR - Critical error during execution: 429 Gemini 2.5 Pro Preview doesn't have a free quota tier. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerDay-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 40
+}
+]
+Traceback (most recent call last):
+  File "/home/joel/repos/poc_crewai_sqlagent/main.py", line 24, in main
+    sql_crew = MacSqlCrew()
+               ^^^^^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/crewai/project/crew_base.py", line 31, in __init__
+    super().__init__(*args, **kwargs)
+  File "/home/joel/repos/poc_crewai_sqlagent/agent.py", line 73, in __init__
+    response = future.result(timeout=30)  # 30 seconds timeout
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/joel/snap/code/191/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/lib/python3.12/concurrent/futures/_base.py", line 456, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/joel/snap/code/191/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/home/joel/snap/code/191/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/lib/python3.12/concurrent/futures/thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/generativeai/generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/ai/generativelanguage_v1beta/services/generative_service/client.py", line 835, in generate_content
+    response = rpc(
+               ^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/gapic_v1/method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 293, in retry_wrapped_func
+    return retry_target(
+           ^^^^^^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 153, in retry_target
+    _retry_error_helper(
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_base.py", line 212, in _retry_error_helper
+    raise final_exc from source_exc
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 144, in retry_target
+    result = target()
+             ^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ResourceExhausted: 429 Gemini 2.5 Pro Preview doesn't have a free quota tier. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerDay-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 40
+}
+]
+2025-05-26 12:42:59,407 - MacSqlCrew.main - INFO - Starting SQL Crew execution
+2025-05-26 12:42:59,407 - MacSqlCrew - INFO - Configured Google AI API
+2025-05-26 12:43:00,755 - MacSqlCrew - ERROR - Model validation failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerDay-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-pro-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-pro-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-pro-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_requests_per_model_per_day"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel"
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-pro-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 59
+}
+]
+2025-05-26 12:43:00,755 - MacSqlCrew - ERROR - Error initializing MacSqlCrew: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerDay-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-pro-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-pro-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-pro-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_requests_per_model_per_day"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel"
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-pro-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 59
+}
+]
+Traceback (most recent call last):
+  File "/home/joel/repos/poc_crewai_sqlagent/agent.py", line 73, in __init__
+    response = future.result(timeout=30)  # 30 seconds timeout
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/joel/snap/code/191/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/lib/python3.12/concurrent/futures/_base.py", line 456, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/joel/snap/code/191/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/home/joel/snap/code/191/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/lib/python3.12/concurrent/futures/thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/generativeai/generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/ai/generativelanguage_v1beta/services/generative_service/client.py", line 835, in generate_content
+    response = rpc(
+               ^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/gapic_v1/method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 293, in retry_wrapped_func
+    return retry_target(
+           ^^^^^^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 153, in retry_target
+    _retry_error_helper(
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_base.py", line 212, in _retry_error_helper
+    raise final_exc from source_exc
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 144, in retry_target
+    result = target()
+             ^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerDay-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-pro-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-pro-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-pro-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_requests_per_model_per_day"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel"
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-pro-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 59
+}
+]
+2025-05-26 12:43:00,760 - MacSqlCrew.main - ERROR - Critical error during execution: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerDay-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-pro-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-pro-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-pro-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_requests_per_model_per_day"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel"
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-pro-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 59
+}
+]
+Traceback (most recent call last):
+  File "/home/joel/repos/poc_crewai_sqlagent/main.py", line 24, in main
+    sql_crew = MacSqlCrew()
+               ^^^^^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/crewai/project/crew_base.py", line 31, in __init__
+    super().__init__(*args, **kwargs)
+  File "/home/joel/repos/poc_crewai_sqlagent/agent.py", line 73, in __init__
+    response = future.result(timeout=30)  # 30 seconds timeout
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/joel/snap/code/191/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/lib/python3.12/concurrent/futures/_base.py", line 456, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/joel/snap/code/191/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/home/joel/snap/code/191/.local/share/uv/python/cpython-3.12.10-linux-x86_64-gnu/lib/python3.12/concurrent/futures/thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/generativeai/generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/ai/generativelanguage_v1beta/services/generative_service/client.py", line 835, in generate_content
+    response = rpc(
+               ^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/gapic_v1/method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 293, in retry_wrapped_func
+    return retry_target(
+           ^^^^^^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 153, in retry_target
+    _retry_error_helper(
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_base.py", line 212, in _retry_error_helper
+    raise final_exc from source_exc
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 144, in retry_target
+    result = target()
+             ^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/joel/repos/poc_crewai_sqlagent/.venv/lib/python3.12/site-packages/google/api_core/grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerDay-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-pro-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-pro-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-pro-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_requests_per_model_per_day"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel"
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-pro-exp"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 59
+}
+]
+2025-05-26 12:43:23,143 - MacSqlCrew.main - INFO - Starting SQL Crew execution
+2025-05-26 12:43:23,144 - MacSqlCrew - INFO - Configured Google AI API
+2025-05-26 12:43:24,720 - MacSqlCrew - INFO - LLM model validated successfully
+2025-05-26 12:43:24,721 - MacSqlCrew - INFO - LLM model initialized successfully
+2025-05-26 12:43:24,726 - MacSqlCrew.main - INFO - Processing question: What is the name of our customers?
+2025-05-26 12:43:24,726 - MacSqlCrew - INFO - Starting select_relevant_schema_task
+2025-05-26 12:43:24,726 - MacSqlCrew - INFO - Creating schema selection task
+2025-05-26 12:43:24,726 - MacSqlCrew - INFO - Starting selector_agent
+2025-05-26 12:43:24,726 - MacSqlCrew - INFO - Creating selector agent
+2025-05-26 12:43:24,727 - MacSqlCrew - INFO - Completed selector_agent in 0.00 seconds
+2025-05-26 12:43:24,728 - MacSqlCrew - INFO - Completed select_relevant_schema_task in 0.00 seconds
+2025-05-26 12:43:24,728 - MacSqlCrew - INFO - Starting select_relevant_column_values
+2025-05-26 12:43:24,728 - MacSqlCrew - INFO - Creating column values selection task
+2025-05-26 12:43:24,728 - MacSqlCrew - INFO - Starting selector_agent
+2025-05-26 12:43:24,728 - MacSqlCrew - INFO - Completed selector_agent in 0.00 seconds
+2025-05-26 12:43:24,728 - MacSqlCrew - INFO - Completed select_relevant_column_values in 0.00 seconds
+2025-05-26 12:43:24,728 - MacSqlCrew - INFO - Starting decompose_question_task
+2025-05-26 12:43:24,728 - MacSqlCrew - INFO - Creating question decomposition task
+2025-05-26 12:43:24,728 - MacSqlCrew - INFO - Starting decomposer_agent
+2025-05-26 12:43:24,728 - MacSqlCrew - INFO - Creating decomposer agent
+2025-05-26 12:43:24,729 - MacSqlCrew - INFO - Completed decomposer_agent in 0.00 seconds
+2025-05-26 12:43:24,729 - MacSqlCrew - INFO - Starting select_relevant_schema_task
+2025-05-26 12:43:24,729 - MacSqlCrew - INFO - Completed select_relevant_schema_task in 0.00 seconds
+2025-05-26 12:43:24,729 - MacSqlCrew - INFO - Starting select_relevant_column_values
+2025-05-26 12:43:24,729 - MacSqlCrew - INFO - Completed select_relevant_column_values in 0.00 seconds
+2025-05-26 12:43:24,729 - MacSqlCrew - INFO - Completed decompose_question_task in 0.00 seconds
+2025-05-26 12:43:24,729 - MacSqlCrew - INFO - Starting refine_sql_task
+2025-05-26 12:43:24,729 - MacSqlCrew - INFO - Creating SQL refinement task
+2025-05-26 12:43:24,729 - MacSqlCrew - INFO - Starting refiner_agent
+2025-05-26 12:43:24,729 - MacSqlCrew - INFO - Creating refiner agent
+2025-05-26 12:43:24,730 - MacSqlCrew - INFO - Completed refiner_agent in 0.00 seconds
+2025-05-26 12:43:24,730 - MacSqlCrew - INFO - Starting select_relevant_schema_task
+2025-05-26 12:43:24,730 - MacSqlCrew - INFO - Completed select_relevant_schema_task in 0.00 seconds
+2025-05-26 12:43:24,730 - MacSqlCrew - INFO - Starting select_relevant_column_values
+2025-05-26 12:43:24,730 - MacSqlCrew - INFO - Completed select_relevant_column_values in 0.00 seconds
+2025-05-26 12:43:24,730 - MacSqlCrew - INFO - Starting decompose_question_task
+2025-05-26 12:43:24,730 - MacSqlCrew - INFO - Completed decompose_question_task in 0.00 seconds
+2025-05-26 12:43:24,730 - MacSqlCrew - INFO - Completed refine_sql_task in 0.00 seconds
+2025-05-26 12:43:24,730 - MacSqlCrew - INFO - Starting selector_agent
+2025-05-26 12:43:24,730 - MacSqlCrew - INFO - Completed selector_agent in 0.00 seconds
+2025-05-26 12:43:24,730 - MacSqlCrew - INFO - Starting decomposer_agent
+2025-05-26 12:43:24,730 - MacSqlCrew - INFO - Completed decomposer_agent in 0.00 seconds
+2025-05-26 12:43:24,730 - MacSqlCrew - INFO - Starting refiner_agent
+2025-05-26 12:43:24,730 - MacSqlCrew - INFO - Completed refiner_agent in 0.00 seconds
+2025-05-26 12:43:24,733 - MacSqlCrew.main - INFO - Starting crew execution
+2025-05-26 12:43:24,733 - MacSqlCrew.main - ERROR - Critical error during execution: Crew.kickoff() got an unexpected keyword argument 'step_callback'
+Traceback (most recent call last):
+  File "/home/joel/repos/poc_crewai_sqlagent/main.py", line 50, in main
+    result = crew.kickoff(
+             ^^^^^^^^^^^^^
+TypeError: Crew.kickoff() got an unexpected keyword argument 'step_callback'
+2025-05-26 12:43:43,997 - MacSqlCrew.main - INFO - Starting SQL Crew execution
+2025-05-26 12:43:43,998 - MacSqlCrew - INFO - Configured Google AI API
+2025-05-26 12:43:45,504 - MacSqlCrew - INFO - LLM model validated successfully
+2025-05-26 12:43:45,505 - MacSqlCrew - INFO - LLM model initialized successfully
+2025-05-26 12:43:45,509 - MacSqlCrew.main - INFO - Processing question: What is the name of our customers?
+2025-05-26 12:43:45,509 - MacSqlCrew - INFO - Starting select_relevant_schema_task
+2025-05-26 12:43:45,509 - MacSqlCrew - INFO - Creating schema selection task
+2025-05-26 12:43:45,510 - MacSqlCrew - INFO - Starting selector_agent
+2025-05-26 12:43:45,510 - MacSqlCrew - INFO - Creating selector agent
+2025-05-26 12:43:45,511 - MacSqlCrew - INFO - Completed selector_agent in 0.00 seconds
+2025-05-26 12:43:45,512 - MacSqlCrew - INFO - Completed select_relevant_schema_task in 0.00 seconds
+2025-05-26 12:43:45,512 - MacSqlCrew - INFO - Starting select_relevant_column_values
+2025-05-26 12:43:45,512 - MacSqlCrew - INFO - Creating column values selection task
+2025-05-26 12:43:45,512 - MacSqlCrew - INFO - Starting selector_agent
+2025-05-26 12:43:45,512 - MacSqlCrew - INFO - Completed selector_agent in 0.00 seconds
+2025-05-26 12:43:45,512 - MacSqlCrew - INFO - Completed select_relevant_column_values in 0.00 seconds
+2025-05-26 12:43:45,512 - MacSqlCrew - INFO - Starting decompose_question_task
+2025-05-26 12:43:45,512 - MacSqlCrew - INFO - Creating question decomposition task
+2025-05-26 12:43:45,512 - MacSqlCrew - INFO - Starting decomposer_agent
+2025-05-26 12:43:45,512 - MacSqlCrew - INFO - Creating decomposer agent
+2025-05-26 12:43:45,513 - MacSqlCrew - INFO - Completed decomposer_agent in 0.00 seconds
+2025-05-26 12:43:45,513 - MacSqlCrew - INFO - Starting select_relevant_schema_task
+2025-05-26 12:43:45,513 - MacSqlCrew - INFO - Completed select_relevant_schema_task in 0.00 seconds
+2025-05-26 12:43:45,513 - MacSqlCrew - INFO - Starting select_relevant_column_values
+2025-05-26 12:43:45,513 - MacSqlCrew - INFO - Completed select_relevant_column_values in 0.00 seconds
+2025-05-26 12:43:45,514 - MacSqlCrew - INFO - Completed decompose_question_task in 0.00 seconds
+2025-05-26 12:43:45,514 - MacSqlCrew - INFO - Starting refine_sql_task
+2025-05-26 12:43:45,514 - MacSqlCrew - INFO - Creating SQL refinement task
+2025-05-26 12:43:45,514 - MacSqlCrew - INFO - Starting refiner_agent
+2025-05-26 12:43:45,514 - MacSqlCrew - INFO - Creating refiner agent
+2025-05-26 12:43:45,515 - MacSqlCrew - INFO - Completed refiner_agent in 0.00 seconds
+2025-05-26 12:43:45,515 - MacSqlCrew - INFO - Starting select_relevant_schema_task
+2025-05-26 12:43:45,515 - MacSqlCrew - INFO - Completed select_relevant_schema_task in 0.00 seconds
+2025-05-26 12:43:45,515 - MacSqlCrew - INFO - Starting select_relevant_column_values
+2025-05-26 12:43:45,515 - MacSqlCrew - INFO - Completed select_relevant_column_values in 0.00 seconds
+2025-05-26 12:43:45,515 - MacSqlCrew - INFO - Starting decompose_question_task
+2025-05-26 12:43:45,515 - MacSqlCrew - INFO - Completed decompose_question_task in 0.00 seconds
+2025-05-26 12:43:45,515 - MacSqlCrew - INFO - Completed refine_sql_task in 0.00 seconds
+2025-05-26 12:43:45,515 - MacSqlCrew - INFO - Starting selector_agent
+2025-05-26 12:43:45,515 - MacSqlCrew - INFO - Completed selector_agent in 0.00 seconds
+2025-05-26 12:43:45,515 - MacSqlCrew - INFO - Starting decomposer_agent
+2025-05-26 12:43:45,515 - MacSqlCrew - INFO - Completed decomposer_agent in 0.00 seconds
+2025-05-26 12:43:45,515 - MacSqlCrew - INFO - Starting refiner_agent
+2025-05-26 12:43:45,516 - MacSqlCrew - INFO - Completed refiner_agent in 0.00 seconds
+2025-05-26 12:43:45,519 - MacSqlCrew.main - INFO - Starting crew execution
+2025-05-26 12:53:43,998 - MacSqlCrew.main - ERROR - Operation timed out
